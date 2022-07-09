@@ -84,5 +84,6 @@ public class Adactin {
 		String oNo = bc.getAttribute(orderNo);
 		System.out.println(oNo);
 		bc.writeValueCreateCell("Sheet2", 1, 18, oNo);
+		System.out.println("Maven");
 	}
 }
